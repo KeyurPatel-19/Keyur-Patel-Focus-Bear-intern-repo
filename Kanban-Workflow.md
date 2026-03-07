@@ -41,3 +41,13 @@ I can improve my workflow by:
 - Working on only 1–2 tasks at a time
 - Reviewing my board daily
 This helps me stay organized and consistent.
+
+Task
+
+Create a kanban board for your repo with relevant columns (e.g. not started, in progress, ready for review, approved by bot)
+
+Move at least one task through the Kanban process and update its status correctly.
+
+Identify one way you can improve task tracking in your role.
+
+One way I can improve task tracking in my role is by regularly updating the Kanban board whenever I start or complete a task. This helps keep the workflow organised and makes it easy to see which tasks are pending, in progress, or finished. By keeping the board updated, I can better track my progress and ensure that the project status is always clear.
