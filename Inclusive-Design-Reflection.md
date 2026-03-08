@@ -32,3 +32,16 @@ Some problems include complicated designs, too many notifications, unclear instr
 
 One practical change I can make is writing instructions in a simple and clear way so users can easily understand what they need to do.
 
+## Task
+
+### Read a first-person account from someone with ADHD or Autism about their experiences with productivity tools. (Hint: Look for blog posts, videos, or community discussions.)
+
+After reading about the experiences of people with ADHD using productivity tools, I learned that many users feel overwhelmed when an app shows too many tasks at once. Simple layouts and step-by-step task guidance help them stay focused and reduce stress.
+
+### Identify one design or communication improvement that could make Focus Bear more accessible.
+
+One design improvement that could make Focus Bear more accessible is breaking large tasks into smaller steps. This can help users feel less overwhelmed and make it easier to stay focused.
+
+### Practice writing a clear, patient, and supportive response to a hypothetical user struggling with executive functioning.
+
+Thank you for sharing your experience. It’s completely normal to feel distracted sometimes, especially when working on many tasks. You can try starting with one small task and using a focus session to help stay on track. Taking short breaks between tasks can also help improve focus. If you need any support, we are here to help.
