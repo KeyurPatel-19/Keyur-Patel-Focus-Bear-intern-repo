@@ -6,7 +6,7 @@ As part of the Swinburne postgraduate internship program, I am required to compl
 ## Weekly Work Plan
 
 ### 28 Feb 2026, Sat
-Time: 3:00 PM – 3:30 PM  
+Time: 3:00 PM – 3:45 PM  
 Location: Home
 Task: Onboarding process step 1: Duplicating the Repo
 
