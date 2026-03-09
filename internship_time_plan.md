@@ -11,9 +11,9 @@ Location: Home
 Task: Onboarding process step 1: Duplicating the Repo
 
 ### 03 Mar 2026, Tue
-Time: 2:00 PM – 2:30 PM  
+Time: 2:00 PM – 3:00 PM  
 Location: Home
-Task: Onboarding process step 2, Milestone 0: Working in Agile Team
+Task: Onboarding process step 2, Milestone 0: Working in Agile Team, Download Focus Bear app and star record timelogs. 
 
 ### 07 Mar 2026, Sat
 Time: 1:00 PM – 2:00 PM  
