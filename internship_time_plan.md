@@ -18,4 +18,9 @@ Task: Onboarding process step 2, Milestone 0: Working in Agile Team
 ### 07 Mar 2026, Sat
 Time: 1:00 PM – 1:40 PM  
 Location: Home
-Task: Onboarding process step 2, Milestone 0: 
+Task: Onboarding process step 2, Milestone 0: Company Policies
+
+### 08 Mar 2026, Sun
+Time: 11: 00 am - 12: 00am
+Location: Home
+Task: Onboarding process step 2, Milestone 0: Company Policies
