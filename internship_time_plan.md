@@ -7,7 +7,7 @@ As part of the Swinburne postgraduate internship program, I am required to compl
 
 ### 28 Feb 2026, Sat
 Time: 3:00 PM – 3:45 PM  
-Location: Home
+Location: Home 
 Task: Onboarding process step 1: Duplicating the Repo
 
 ### 03 Mar 2026, Tue
