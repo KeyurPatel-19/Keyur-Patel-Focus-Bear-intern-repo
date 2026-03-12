@@ -22,3 +22,4 @@ Yes, I can relate to some of these challenges. As a university student, there ar
 
 ### We want you to think about this personally not just get AI to write a vague answer. Do you know someone with ADHD or autism or even someone without a diagnosis who has struggled socially or to perform well at uni? How might Focus Bear help them?
 
+I know one of my friends who struggles with ADHD. She finds it difficult to focus on one task for a long time. For example, when she starts studying, she often gets distracted by her phone, random thoughts, or other things around her. It becomes hard for her to stay focused on her work or studies. I think Focus Bear could help her by blocking distracting websites and apps while she is studying. This would reduce the chances of her getting distracted and help her stay focused on the task she is doing. Also, by tracking her daily focus time, she could see her progress and feel more motivated to study and work consistently every day.
