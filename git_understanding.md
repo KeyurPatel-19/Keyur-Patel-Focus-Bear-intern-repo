@@ -25,3 +25,7 @@ There are several situations where staging changes without committing can be use
 It is also helpful when reviewing changes before saving them. By staging files and checking git status, you can confirm exactly what will be included in the next commit. If something is staged by mistake, it can easily be unstaged before committing.
 
 This process helps ensure that commits remain clear, accurate, and well-structured.
+
+## Branching & Team Collaboration
+
+Branches help developers work on changes safely without affecting the main version of the project.
