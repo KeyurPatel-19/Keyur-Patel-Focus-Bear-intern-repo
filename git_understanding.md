@@ -50,3 +50,15 @@ In a real project, I would use these commands to safely manage changes, track pr
 
 ## What surprised me while testing these commands?
 What surprised me was how powerful Git is for handling specific changes without affecting the whole project. I found cherry-pick especially interesting because it lets me move only one commit instead of merging an entire branch. I also found git blame useful because it gives clear history at the line level, which can be very helpful in team projects.
+
+
+## Debugging with git bisect
+
+### What does git bisect do?
+git bisect helps find the exact commit that introduced a bug by using binary search. Instead of checking every commit manually, Git checks commits in between a known good commit and a bad commit until it identifies the first bad one.
+
+### When would you use it in a real-world debugging situation?
+I would use git bisect when a project suddenly starts failing, but I do not know which commit caused the issue. It is especially useful in projects with many commits and multiple developers because it saves time and makes debugging more systematic.
+
+### How does it compare to manually reviewing commits?
+git bisect is much faster and more efficient than manually reviewing commits one by one. Manual checking can take a long time and is easy to get confused with, while git bisect narrows the problem down quickly and gives a more reliable result.
