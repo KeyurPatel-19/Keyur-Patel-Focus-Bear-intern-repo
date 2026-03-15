@@ -28,3 +28,25 @@ This process helps ensure that commits remain clear, accurate, and well-structur
 
 ## Cherry-pick test
 This line was added on the cherry-pick-test branch.
+
+## Advanced Git Commands & Reflection
+
+## What does each command do?
+### git checkout main -- <file>
+This command restores a specific file from the main branch without changing the rest of the branch. I would use it when I accidentally edit one file and want to bring back the clean version from main without losing my other work.
+
+### git cherry-pick <commit>
+This command applies one specific commit from another branch onto the current branch. I would use it in a real project when I only need one useful fix or feature from another branch and do not want to merge everything from that branch.
+
+### git log
+This command shows the commit history of the repository. I would use it to understand what changes were made over time, who made them, and to find commit IDs for other Git operations.
+
+### git blame <file>
+This command shows who last modified each line in a file and when. I would use it in a real project when I want to understand why a certain line was changed or find the right person to ask about that code.
+
+## When would you use it in a real project (hint: these are all really important in long running projects with multiple developers)?
+
+In a real project, I would use these commands to safely manage changes, track project history, restore files, and bring in only the exact fixes I need without disturbing other team members’ work.
+
+## What surprised me while testing these commands?
+What surprised me was how powerful Git is for handling specific changes without affecting the whole project. I found cherry-pick especially interesting because it lets me move only one commit instead of merging an entire branch. I also found git blame useful because it gives clear history at the line level, which can be very helpful in team projects.
