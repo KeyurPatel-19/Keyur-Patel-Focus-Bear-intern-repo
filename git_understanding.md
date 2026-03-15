@@ -75,3 +75,6 @@ git bisect is much faster and more efficient than manually reviewing commits one
 
 ## Commit style test 1
 Testing a vague commit message.
+
+## Commit style test 2
+Testing an overly detailed commit message.
