@@ -89,3 +89,8 @@ A clear commit message helps team members quickly understand changes without ope
 
 ### How can poor commit messages cause issues later?
 Poor commit messages make it hard to understand why a change was made. This can slow down debugging, confuse teammates, and make project history less useful.
+
+
+## Pull Request Practice
+
+I created a new branch and practiced creating a pull request to understand how developers collaborate and review code changes in GitHub.
