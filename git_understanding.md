@@ -91,6 +91,13 @@ A clear commit message helps team members quickly understand changes without ope
 Poor commit messages make it hard to understand why a change was made. This can slow down debugging, confuse teammates, and make project history less useful.
 
 
-## Pull Request Practice
+## Pull Request Reflection
 
-I created a new branch and practiced creating a pull request to understand how developers collaborate and review code changes in GitHub.
+### Why are PRs important in a team workflow?
+Pull requests allow developers to review code before it is merged into the main branch. This helps teams detect mistakes early and maintain better code quality.
+
+### What makes a well-structured PR?
+A good pull request has a clear title, explanation of the changes, and small focused updates so reviewers can easily understand what was modified.
+
+### What did you learn from reviewing an open-source PR?
+I learned that developers actively discuss code improvements, suggest fixes, and approve changes before merging. It showed me that collaboration and feedback are essential parts of software development.
