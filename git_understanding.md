@@ -78,3 +78,14 @@ Testing a vague commit message.
 
 ## Commit style test 2
 Testing an overly detailed commit message.
+
+## Reflection
+
+### What makes a good commit message?
+A good commit message is short, clear, and specific. It should explain what changed in a way that is easy for others to understand later.
+
+### How does a clear commit message help in team collaboration?
+A clear commit message helps team members quickly understand changes without opening every file. It makes reviews, debugging, and project history easier to follow.
+
+### How can poor commit messages cause issues later?
+Poor commit messages make it hard to understand why a change was made. This can slow down debugging, confuse teammates, and make project history less useful.
