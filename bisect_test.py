@@ -1,2 +1,5 @@
+# print("App starts")
+# pritn("This line has a bug")
+
 print("App starts")
-pritn("This line has a bug")
+print("This line has a bug")
