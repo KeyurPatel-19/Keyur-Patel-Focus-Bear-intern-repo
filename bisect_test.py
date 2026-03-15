@@ -1,3 +1,2 @@
-print("App is working")
-# version 2
-print("Still working fine")
+print("App starts")
+pritn("This line has a bug")
