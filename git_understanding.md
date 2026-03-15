@@ -26,6 +26,22 @@ It is also helpful when reviewing changes before saving them. By staging files a
 
 This process helps ensure that commits remain clear, accurate, and well-structured.
 
+
+## Branching & Team Collaboration
+
+Branches help developers work on changes safely without affecting the main version of the project.
+
+## Branching & Team Collaboration Reflection
+
+### Why is pushing directly to main problematic?
+Pushing directly to main is risky because it can affect the stable version of the project immediately. If the code has a mistake, bug, or incomplete work, it can create problems for the whole team. It also makes collaboration harder because important changes go live without proper checking.
+
+### How do branches help with reviewing code?
+Branches give developers a safe space to work on their own changes without disturbing the main project. Once the work is ready, it can be reviewed before merging. This makes it easier to catch mistakes, improve code quality, and discuss changes with the team.
+
+### What happens if two people edit the same file on different branches?
+If two people edit the same part of the same file on different branches, Git may create a merge conflict when the branches are merged. This means Git cannot decide which change should be kept automatically, so the conflict must be resolved manually.
+
 ## Cherry-pick test
 This line was added on the cherry-pick-test branch.
 
@@ -101,3 +117,4 @@ A good pull request has a clear title, explanation of the changes, and small foc
 
 ### What did you learn from reviewing an open-source PR?
 I learned that developers actively discuss code improvements, suggest fixes, and approve changes before merging. It showed me that collaboration and feedback are essential parts of software development.
+
