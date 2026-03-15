@@ -41,6 +41,11 @@ Location: Monash Focus Bear
 Task: Onboarding process step 2, Milestone 1: Learning about focus bear and set your goals and Milestone 2: Set up tools.
 
 ### 14 Mar 2026, Sat
-Time: 5: 30 PM - 
+Time: 5: 30 PM - 06: 00 PM
 Location: Home
 Task: Onboarding process step 2, Milestone 1: Learning about focus bear and set your goals and Milestone 2: Set up tools.
+
+### 15 Mar 2026, Sun
+Time: 9: 30 AM - 12: 15 PM
+Location: Home
+Task: Onboarding process step 2, Milestone 3
