@@ -62,3 +62,16 @@ I would use git bisect when a project suddenly starts failing, but I do not know
 
 ### How does it compare to manually reviewing commits?
 git bisect is much faster and more efficient than manually reviewing commits one by one. Manual checking can take a long time and is easy to get confused with, while git bisect narrows the problem down quickly and gives a more reliable result.
+
+
+# Writing Meaningful Commit Messages
+
+## Best practices
+- Keep the message clear and specific.
+- Describe what changed.
+- Use imperative tone, such as "Add", "Fix", or "Update".
+- Keep the first line short and readable.
+- Avoid vague messages like "fixed stuff".
+
+## Commit style test 1
+Testing a vague commit message.
