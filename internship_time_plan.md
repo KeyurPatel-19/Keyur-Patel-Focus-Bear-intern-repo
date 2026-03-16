@@ -43,9 +43,9 @@ Task: Onboarding process step 2, Milestone 1: Learning about focus bear and set 
 ### 14 Mar 2026, Sat
 Time: 5: 30 PM - 7 : 00 PM
 Location: Home
-Task: Onboarding process step 2, Milestone 2 and 3
+Task: Onboarding process step 2, Milestone 2 Set up tools and 3 Learn git
 
 ### 15 Mar 2026, Sun
 Time: 09:30 AM to 12:30 PM  and 06: 00 PM to 07: 00 PM
 Location: Home
-Task: Onboarding process step 2, Milestone 2 and 3
+Task: Onboarding process step 2, Milestone 3 Learn git
