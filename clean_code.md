@@ -149,3 +149,13 @@ Poorly named variables can make the code confusing and harder to follow. When na
 ### How did refactoring improve code readability?
 
 Refactoring improved the readability of the code by replacing unclear names with more meaningful ones. After the changes, the purpose of each variable and function became much easier to understand. The code now explains itself more naturally, so a reader does not have to spend extra time guessing what each part means. This makes the code cleaner, more organized, and easier to maintain in the future.
+
+### Proof for Naming Variables & Functions
+
+### Notes and Refactoring Screenshot
+
+![Naming Variables and Functions Notes](screenshots/naming_variables_functions_notes.png)
+
+### Git Commit Screenshot
+
+![Git Commit for Naming Task](screenshots/git_commit_naming_task.png)
