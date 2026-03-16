@@ -26,12 +26,12 @@ Location: Home
 Task: Onboarding process step 2, Milestone 0: Company Policies
 
 ### 09 Mar 2026, Mon
-Time: 1: 15 PM - 2: 00 PM
+Time: 1: 15 PM - 2: 15 PM
 Location: Home
 Task: Onboarding process step 2, completing remaining issues on company plocies
 
 ### 11 Mar 2026, Wed
-Time: 8: 30 PM - 9: 15 PM
+Time: 8: 30 PM - 9: 30 PM
 Location: Home
 Task: Onboarding process step 2, Milestone 1: Understanding of Focus Bear's Mission and Vission
 
@@ -41,7 +41,7 @@ Location: Monash Focus Bear
 Task: Onboarding process step 2, Milestone 1: Learning about focus bear and set your goals and Milestone 2: Set up tools.
 
 ### 14 Mar 2026, Sat
-Time: 5: 30 PM - 7 : 00 PM
+Time: 5: 30 PM - 7 : 30 PM
 Location: Home
 Task: Onboarding process step 2, Milestone 2 Set up tools and 3 Learn git
 
