@@ -1,0 +1,25 @@
+{
+  "name": "keyur-patel-focus-bear-intern-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeyurPatel-19/Keyur-Patel-Focus-Bear-intern-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KeyurPatel-19/Keyur-Patel-Focus-Bear-intern-repo/issues"
+  },
+  "homepage": "https://github.com/KeyurPatel-19/Keyur-Patel-Focus-Bear-intern-repo#readme",
+  "devDependencies": {
+    "eslint": "^10.0.3",
+    "prettier": "^3.8.1"
+  }
+}
