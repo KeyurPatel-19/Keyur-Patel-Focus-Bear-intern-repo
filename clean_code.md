@@ -99,3 +99,53 @@ The Airbnb JavaScript Style Guide is a widely used guide that gives practical ru
 ### Running Prettier and ESLint
 
 ![Prettier and ESLint Output](screenshots/prettier_and_eslint_run.png)
+
+---
+
+# Naming Variables & Functions
+
+### Find examples of unclear variable names in an existing codebase (or write your own).
+
+### Example of Unclear Variable and Function Names
+
+def calc(x, y):
+z = x \* y
+return z
+
+a = 5
+b = 10
+c = calc(a, b)
+print(c)
+
+### why it is unclear:
+
+This code works, but the naming is not clear. The function name `calc` is too vague because it does not explain what kind of calculation is being done. The variables `x`, `y`, `z`, `a`, `b`, and `c` also do not give any meaning. Someone reading this code would need to inspect the logic to understand that it is multiplying two numbers.
+
+### Refactor the code by renaming variables/functions for better clarity.
+
+### Refactored Version with Better Names
+
+def multiply_numbers(first_number, second_number):
+product = first_number \* second_number
+return product
+
+number_one = 5
+number_two = 10
+result = multiply_numbers(number_one, number_two)
+print(result)
+
+### Explain the improvement:
+
+This version is much easier to understand. The function name `multiply_numbers` clearly explains what the function does. The variable names `first_number`, `second_number`, `product`, and `result` all make the code more readable. Even without looking deeply at the logic, the purpose of the code is obvious.
+
+### What makes a good variable or function name?
+
+A good variable or function name should clearly explain its purpose. When someone reads the code, they should be able to understand what the variable stores or what the function does without needing extra explanation. Good names are meaningful, specific, and easy to read. They make the code feel more natural and reduce confusion for anyone working on it later. A well-named function usually describes an action, while a well-named variable describes the data it holds.
+
+### What issues can arise from poorly named variables?
+
+Poorly named variables can make the code confusing and harder to follow. When names are too short, too vague, or unrelated to their actual purpose, it becomes difficult to understand what the code is doing. This can lead to mistakes when updating or debugging the code. It also slows down teamwork because other developers may need extra time to figure out the logic. In the long run, poor naming can make even simple code feel messy and frustrating to maintain.
+
+### How did refactoring improve code readability?
+
+Refactoring improved the readability of the code by replacing unclear names with more meaningful ones. After the changes, the purpose of each variable and function became much easier to understand. The code now explains itself more naturally, so a reader does not have to spend extra time guessing what each part means. This makes the code cleaner, more organized, and easier to maintain in the future.
