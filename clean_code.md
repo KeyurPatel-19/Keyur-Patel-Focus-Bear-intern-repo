@@ -317,3 +317,54 @@ The main issue with duplicated code was that the same logic appeared in multiple
 ### How did refactoring improve maintainability?
 
 Refactoring improved maintainability by moving the repeated logic into a single reusable function. This made the code shorter, cleaner, and easier to understand. It also means that future changes only need to be made in one place instead of several. As a result, the code became more reliable and easier to manage.
+
+---
+
+# Refactoring Code for Simplicity
+
+### Research on Refactoring Techniques
+
+Refactoring is the process of improving the structure and readability of existing code without changing its behavior. The main goal of refactoring is to make the code easier to understand, maintain, and modify in the future.
+
+Some common refactoring techniques include:
+Extract Method – Breaking a large block of code into smaller functions with clear purposes.
+Remove Unnecessary Conditions – Simplifying complex conditional statements.
+Rename Variables or Functions – Using meaningful names that clearly describe their purpose.
+Eliminate Duplicate Code – Moving repeated logic into reusable functions.
+Simplify Logic – Replacing overly complicated structures with clearer and shorter code.
+
+### Find an example of overly complicated code in an existing project (or write your own).
+
+def calculate_average(numbers):
+total = 0
+count = 0
+
+    for i in range(0, len(numbers)):
+        total = total + numbers[i]
+        count = count + 1
+
+    if count != 0:
+        average = total / count
+    else:
+        average = 0
+
+    return average
+
+This code works correctly, but it is more complicated than necessary. It manually counts elements and performs extra steps that Python can already handle more efficiently.
+
+### Refactor it to make it simpler and more readable.
+
+def calculate_average(numbers):
+if not numbers:
+return 0
+return sum(numbers) / len(numbers)
+
+The refactored version is shorter, clearer, and easier to understand. It uses Python's built-in functions to perform the same task with much less code.
+
+### What made the original code complex?
+
+The original code was complex because it included unnecessary variables and extra steps to perform a simple task. It manually counted the elements in the list and used a loop to calculate the total, which made the function longer than needed. Although the code worked, it was harder to read and understand at first glance.
+
+### How did refactoring improve it?
+
+Refactoring improved the code by simplifying the logic and removing unnecessary steps. By using built-in functions like sum() and len(), the function became shorter and easier to understand. The final version clearly shows what the function is doing, which makes it easier to maintain and modify in the future.
