@@ -8,6 +8,7 @@ Freedom
 Cold Turkey
 Tiimo
 Routinery
+
 ## Then, reflect on the following questions:
 
 ### What makes Focus Bear different from these apps?

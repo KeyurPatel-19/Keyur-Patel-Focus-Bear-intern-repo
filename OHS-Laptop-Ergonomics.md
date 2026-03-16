@@ -9,12 +9,12 @@ Using a laptop without an external monitor or keyboard can create posture proble
 ### What ergonomic equipment can improve posture when working on a laptop? (e.g., laptop stands, external keyboards, ergonomic chairs)
 
 Some useful ergonomic equipment includes:
-  -Laptop stand – raises the laptop screen to eye level
-  -External keyboard and mouse – allows hands and wrists to stay in a natural position
-  -External monitor – helps maintain better viewing height
-  -Ergonomic chair – provides back and lumbar support
-  -Footrest – helps keep legs and posture comfortable
-  -Desk with proper height – keeps arms and shoulders relaxed while working
+-Laptop stand – raises the laptop screen to eye level
+-External keyboard and mouse – allows hands and wrists to stay in a natural position
+-External monitor – helps maintain better viewing height
+-Ergonomic chair – provides back and lumbar support
+-Footrest – helps keep legs and posture comfortable
+-Desk with proper height – keeps arms and shoulders relaxed while working
 These tools help reduce strain on the body and make working for longer periods more comfortable.
 
 ### What adjustments should be made to monitor height, chair position, and desk setup for a healthier workspace?
@@ -24,12 +24,12 @@ A healthy workspace setup can make a big difference in preventing discomfort whi
 ### What are some daily habits that reduce the impact of prolonged laptop use? (e.g., movement breaks, posture checks, eye strain reduction techniques)
 
 Some healthy habits that can reduce strain include:
-  -Taking short movement breaks every 30–60 minutes
-  -Stretching the neck, shoulders, and wrists during breaks
-  -Following the 20-20-20 rule for eye health
-  -Sitting upright and avoiding slouching
-  -Walking around or standing up between tasks
-  -Drinking water and resting the eyes regularly
+-Taking short movement breaks every 30–60 minutes
+-Stretching the neck, shoulders, and wrists during breaks
+-Following the 20-20-20 rule for eye health
+-Sitting upright and avoiding slouching
+-Walking around or standing up between tasks
+-Drinking water and resting the eyes regularly
 These small habits can greatly reduce discomfort during long work sessions.
 
 ## Reflection
@@ -41,12 +41,12 @@ To improve my workspace setup, I can make a few simple equipment changes. For ex
 ### What behavioural changes can you implement to improve posture and reduce strain? (e.g., sitting upright, taking regular breaks, adjusting screen height)
 
 Some behavioural changes I can follow include:
-  -Sitting upright instead of leaning forward
-  -Keeping my screen at eye level
-  -Checking my posture during long work sessions
-  -Taking short breaks to stretch and move
-  -Relaxing my shoulders while typing
-  -Avoiding working for too long without breaks
+-Sitting upright instead of leaning forward
+-Keeping my screen at eye level
+-Checking my posture during long work sessions
+-Taking short breaks to stretch and move
+-Relaxing my shoulders while typing
+-Avoiding working for too long without breaks
 These habits can help reduce strain and keep me comfortable throughout the day.
 
 ### How can you remind yourself to maintain good posture and take breaks throughout the day? (Hint: Use Focus Bear to schedule movement breaks!)

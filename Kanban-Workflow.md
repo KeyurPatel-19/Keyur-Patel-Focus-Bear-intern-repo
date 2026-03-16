@@ -9,12 +9,13 @@ A Kanban board is a visual management tool that organizes tasks using cards, whi
 ### What do the different columns on a Kanban board represent? (e.g., Backlog, In Progress, Blocked, Done)
 
 Each column shows a stage of work. For example:
+
 - Not Started – Tasks I haven’t started yet
 - In Progress – Tasks I am currently working on
 - Blocked – Tasks that are stuck
 - Ready for Review – Completed tasks waiting for feedback
 - Done / Approved – Fully completed tasks
-These columns help me understand the current status of my work.
+  These columns help me understand the current status of my work.
 
 ### How do tasks move through the board, and who is responsible for updating them?
 
@@ -36,11 +37,12 @@ Kanban helps me clearly see which tasks are important. When everything is visibl
 ### How can you improve your workflow using Kanban principles?
 
 I can improve my workflow by:
+
 - Breaking big tasks into smaller ones
 - Updating the board regularly
 - Working on only 1–2 tasks at a time
 - Reviewing my board daily
-This helps me stay organized and consistent.
+  This helps me stay organized and consistent.
 
 ## Task
 

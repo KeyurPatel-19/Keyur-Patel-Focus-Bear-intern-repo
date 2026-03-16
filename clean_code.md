@@ -89,3 +89,13 @@ Yes, formatting the code made it much easier to read. After running Prettier and
 ### shall note on the Airbnb JavaScript Style Guide
 
 The Airbnb JavaScript Style Guide is a widely used guide that gives practical rules for writing clean and consistent JavaScript. It describes itself as “a mostly reasonable approach to JavaScript,” and it is commonly used as a reference for naming, spacing, functions, objects, imports, and general coding style.
+
+## Proof for code formatting and stydle guides
+
+### Installing ESLint and Prettier
+
+![ESLint Installation](screenshots/eslint_prettier_install.png)
+
+### Running Prettier and ESLint
+
+![Prettier and ESLint Output](screenshots/prettier_and_eslint_run.png)

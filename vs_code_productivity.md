@@ -1,27 +1,26 @@
 ### Create a file vs_code_productivity.md and put in your top 10 shortcuts.
 
 #### Navigation
-  
-  Cmd + P — Quick Open / Go to file
-  Ctrl + G — Go to line
-  Shift + Cmd + O — Go to symbol in file
+
+Cmd + P — Quick Open / Go to file
+Ctrl + G — Go to line
+Shift + Cmd + O — Go to symbol in file
 
 #### Editing
 
-  Option + Click — Insert cursor
-  Option + Cmd + Up / Down — Insert cursor above / below
-  Cmd + D — Add selection to next find match
-  Shift + Cmd + L — Select all occurrences of current selection
-  Shift + Option + F — Format document
+Option + Click — Insert cursor
+Option + Cmd + Up / Down — Insert cursor above / below
+Cmd + D — Add selection to next find match
+Shift + Cmd + L — Select all occurrences of current selection
+Shift + Option + F — Format document
 
 #### Debugging
 
-  F5 — Start / Continue debugging
+F5 — Start / Continue debugging
 
 #### Terminal Commands
 
-  Ctrl + ` — Show integrated terminal
-
+Ctrl + ` — Show integrated terminal
 
 ### Which shortcuts do you think will be the most useful in your daily work?
 

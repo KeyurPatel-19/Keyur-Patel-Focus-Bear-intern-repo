@@ -9,13 +9,14 @@ A User Manual for Me is a short guide where a person explains how they like to w
 ### What categories are helpful to include? (e.g., communication style, work habits, feedback preferences)
 
 Some helpful categories to include are:
- - Communication style
- - Work habits
- - Focus and productivity preferences
- - Collaboration and teamwork style
- - Feedback preferences
- - Personal quirks or things teammates should know
-These sections help teammates understand how to work with someone effectively.
+
+- Communication style
+- Work habits
+- Focus and productivity preferences
+- Collaboration and teamwork style
+- Feedback preferences
+- Personal quirks or things teammates should know
+  These sections help teammates understand how to work with someone effectively.
 
 ### How can writing a personal user manual improve teamwork and reduce misunderstandings?
 
@@ -48,4 +49,3 @@ One thing to know about my work style is that I sometimes take a little time to 
 ### Write your User Manual for Me using the structure below.
 
 ### Share it with your manager or teammates so they can better understand how to work with you.
-

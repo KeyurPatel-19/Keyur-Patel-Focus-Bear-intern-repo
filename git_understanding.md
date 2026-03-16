@@ -26,7 +26,6 @@ It is also helpful when reviewing changes before saving them. By staging files a
 
 This process helps ensure that commits remain clear, accurate, and well-structured.
 
-
 ## Branching & Team Collaboration
 
 Branches help developers work on changes safely without affecting the main version of the project.
@@ -34,30 +33,39 @@ Branches help developers work on changes safely without affecting the main versi
 ## Branching & Team Collaboration Reflection
 
 ### Why is pushing directly to main problematic?
+
 Pushing directly to main is risky because it can affect the stable version of the project immediately. If the code has a mistake, bug, or incomplete work, it can create problems for the whole team. It also makes collaboration harder because important changes go live without proper checking.
 
 ### How do branches help with reviewing code?
+
 Branches give developers a safe space to work on their own changes without disturbing the main project. Once the work is ready, it can be reviewed before merging. This makes it easier to catch mistakes, improve code quality, and discuss changes with the team.
 
 ### What happens if two people edit the same file on different branches?
+
 If two people edit the same part of the same file on different branches, Git may create a merge conflict when the branches are merged. This means Git cannot decide which change should be kept automatically, so the conflict must be resolved manually.
 
 ## Cherry-pick test
+
 This line was added on the cherry-pick-test branch.
 
 ## Advanced Git Commands & Reflection
 
 ## What does each command do?
+
 ### git checkout main -- <file>
+
 This command restores a specific file from the main branch without changing the rest of the branch. I would use it when I accidentally edit one file and want to bring back the clean version from main without losing my other work.
 
 ### git cherry-pick <commit>
+
 This command applies one specific commit from another branch onto the current branch. I would use it in a real project when I only need one useful fix or feature from another branch and do not want to merge everything from that branch.
 
 ### git log
+
 This command shows the commit history of the repository. I would use it to understand what changes were made over time, who made them, and to find commit IDs for other Git operations.
 
 ### git blame <file>
+
 This command shows who last modified each line in a file and when. I would use it in a real project when I want to understand why a certain line was changed or find the right person to ask about that code.
 
 ## When would you use it in a real project (hint: these are all really important in long running projects with multiple developers)?
@@ -65,24 +73,27 @@ This command shows who last modified each line in a file and when. I would use i
 In a real project, I would use these commands to safely manage changes, track project history, restore files, and bring in only the exact fixes I need without disturbing other team members’ work.
 
 ## What surprised me while testing these commands?
-What surprised me was how powerful Git is for handling specific changes without affecting the whole project. I found cherry-pick especially interesting because it lets me move only one commit instead of merging an entire branch. I also found git blame useful because it gives clear history at the line level, which can be very helpful in team projects.
 
+What surprised me was how powerful Git is for handling specific changes without affecting the whole project. I found cherry-pick especially interesting because it lets me move only one commit instead of merging an entire branch. I also found git blame useful because it gives clear history at the line level, which can be very helpful in team projects.
 
 ## Debugging with git bisect
 
 ### What does git bisect do?
+
 git bisect helps find the exact commit that introduced a bug by using binary search. Instead of checking every commit manually, Git checks commits in between a known good commit and a bad commit until it identifies the first bad one.
 
 ### When would you use it in a real-world debugging situation?
+
 I would use git bisect when a project suddenly starts failing, but I do not know which commit caused the issue. It is especially useful in projects with many commits and multiple developers because it saves time and makes debugging more systematic.
 
 ### How does it compare to manually reviewing commits?
-git bisect is much faster and more efficient than manually reviewing commits one by one. Manual checking can take a long time and is easy to get confused with, while git bisect narrows the problem down quickly and gives a more reliable result.
 
+git bisect is much faster and more efficient than manually reviewing commits one by one. Manual checking can take a long time and is easy to get confused with, while git bisect narrows the problem down quickly and gives a more reliable result.
 
 # Writing Meaningful Commit Messages
 
 ## Best practices
+
 - Keep the message clear and specific.
 - Describe what changed.
 - Use imperative tone, such as "Add", "Fix", or "Update".
@@ -90,31 +101,37 @@ git bisect is much faster and more efficient than manually reviewing commits one
 - Avoid vague messages like "fixed stuff".
 
 ## Commit style test 1
+
 Testing a vague commit message.
 
 ## Commit style test 2
+
 Testing an overly detailed commit message.
 
 ## Reflection
 
 ### What makes a good commit message?
+
 A good commit message is short, clear, and specific. It should explain what changed in a way that is easy for others to understand later.
 
 ### How does a clear commit message help in team collaboration?
+
 A clear commit message helps team members quickly understand changes without opening every file. It makes reviews, debugging, and project history easier to follow.
 
 ### How can poor commit messages cause issues later?
-Poor commit messages make it hard to understand why a change was made. This can slow down debugging, confuse teammates, and make project history less useful.
 
+Poor commit messages make it hard to understand why a change was made. This can slow down debugging, confuse teammates, and make project history less useful.
 
 ## Pull Request Reflection
 
 ### Why are PRs important in a team workflow?
+
 Pull requests allow developers to review code before it is merged into the main branch. This helps teams detect mistakes early and maintain better code quality.
 
 ### What makes a well-structured PR?
+
 A good pull request has a clear title, explanation of the changes, and small focused updates so reviewers can easily understand what was modified.
 
 ### What did you learn from reviewing an open-source PR?
-I learned that developers actively discuss code improvements, suggest fixes, and approve changes before merging. It showed me that collaboration and feedback are essential parts of software development.
 
+I learned that developers actively discuss code improvements, suggest fixes, and approve changes before merging. It showed me that collaboration and feedback are essential parts of software development.

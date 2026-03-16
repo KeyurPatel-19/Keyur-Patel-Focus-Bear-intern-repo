@@ -5,16 +5,16 @@
 ### What are examples of professional vs. unprofessional behaviour in a casual work environment? (Hint: Think about communication, meeting etiquette, and teamwork.)
 
 Professional behaviour
-  Communicating clearly and respectfully in messages and meetings
-  Being punctual for meetings and completing tasks on time
-  Listening to teammates and being supportive
-  Taking responsibility for mistakes and learning from them
+Communicating clearly and respectfully in messages and meetings
+Being punctual for meetings and completing tasks on time
+Listening to teammates and being supportive
+Taking responsibility for mistakes and learning from them
 
 Unprofessional behaviour
-  Ignoring messages or not responding to teammates
-  Interrupting others during meetings
-  Being disrespectful or blaming others for mistakes
-  Not completing assigned tasks or missing deadlines
+Ignoring messages or not responding to teammates
+Interrupting others during meetings
+Being disrespectful or blaming others for mistakes
+Not completing assigned tasks or missing deadlines
 
 ### What does respectful communication look like in remote teams? (e.g., tone in messages, handling disagreements, responding to feedback)
 
@@ -68,4 +68,3 @@ First, I would send a polite reminder message or follow-up email asking if they 
 ## Task
 
 ### Take note of the CEO's phone number (shared in the onboarding deck) - make contact if you see major breaches of professional conduct or other issues
-
