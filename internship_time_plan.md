@@ -59,3 +59,9 @@ Task: Onboarding process step 2, Milestone 2 Set up tools and 3 Learn git
 Time: 09:30 AM to 12:30 PM and 06: 00 PM to 07: 00 PM
 Location: Home
 Task: Onboarding process step 2, Milestone 3 Learn git
+
+### 16 Mar 2026, Mon
+
+Time: 12: 20 PM to 02: 00 PM
+Location: Swinburne LateLab
+Task: Onboarding process step 2, Milestone 4
