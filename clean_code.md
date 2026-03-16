@@ -159,3 +159,96 @@ Refactoring improved the readability of the code by replacing unclear names with
 ### Git Commit Screenshot
 
 ![Git Commit for Naming Task](screenshots/git_commit_naming_task.png)
+
+---
+
+# Writing Small, Focused Functions
+
+### Find an example of a long, complex function in an existing codebase (or write your own).
+
+## Example of a Long, Complex Function
+
+### Before Refactoring
+
+def process_order(order):
+if not order.get("items"):
+return "Order has no items"
+
+    subtotal = 0
+    for item in order["items"]:
+        subtotal += item["price"] * item["quantity"]
+
+    discount = 0
+    if subtotal > 100:
+        discount = subtotal * 0.1
+
+    tax = (subtotal - discount) * 0.1
+    total = subtotal - discount + tax
+
+    summary = "Order Summary\n"
+    summary += "Customer: " + order["customer"] + "\n"
+    summary += "Items:\n"
+
+    for item in order["items"]:
+        summary += f"- {item['name']} x{item['quantity']} = ${item['price'] * item['quantity']}\n"
+
+    summary += f"Subtotal: ${subtotal}\n"
+    summary += f"Discount: ${discount}\n"
+    summary += f"Tax: ${tax}\n"
+    summary += f"Total: ${total}\n"
+
+    return summary
+
+This function is difficult to maintain because it handles too many responsibilities at once. It validates the order, calculates the subtotal, applies a discount, calculates tax, and formats the final output all in one place.
+Refactor it into multiple smaller functions with clear responsibilities.
+
+### Write reflections in clean_code.md:
+
+def validate_order(order):
+return bool(order.get("items"))
+
+def calculate_subtotal(items):
+return sum(item["price"] \* item["quantity"] for item in items)
+
+def calculate_discount(subtotal):
+return subtotal \* 0.1 if subtotal > 100 else 0
+
+def calculate_tax(subtotal, discount):
+return (subtotal - discount) \* 0.1
+
+def format_items(items):
+lines = []
+for item in items:
+line = f"- {item['name']} x{item['quantity']} = ${item['price'] \* item['quantity']}"
+lines.append(line)
+return "\n".join(lines)
+
+def build_order_summary(order, subtotal, discount, tax, total):
+return (
+f"Order Summary\n"
+f"Customer: {order['customer']}\n"
+f"Items:\n{format_items(order['items'])}\n"
+f"Subtotal: ${subtotal}\n"
+f"Discount: ${discount}\n"
+f"Tax: ${tax}\n"
+f"Total: ${total}\n"
+)
+
+def process_order(order):
+if not validate_order(order):
+return "Order has no items"
+
+    subtotal = calculate_subtotal(order["items"])
+    discount = calculate_discount(subtotal)
+    tax = calculate_tax(subtotal, discount)
+    total = subtotal - discount + tax
+
+    return build_order_summary(order, subtotal, discount, tax, total)
+
+### Why is breaking down functions beneficial?
+
+Breaking down functions is beneficial because it makes the code easier to understand and easier to maintain. When one function tries to do everything, it becomes harder to read and more difficult to debug. Smaller functions make the logic clearer because each function has one specific responsibility. This also improves reusability, since helper functions can be used again in other parts of the program. In addition, testing becomes easier because each part of the logic can be checked separately.
+
+### How did refactoring improve the structure of the code?
+
+Refactoring improved the structure by separating the different responsibilities into smaller, clearly named functions. The original version mixed validation, calculation, and formatting in one block, which made it feel crowded and harder to follow. After refactoring, the main function became much cleaner and easier to read because the detailed logic was moved into helper functions. This made the code more organized, more modular, and much easier to update in the future without affecting the whole function.
