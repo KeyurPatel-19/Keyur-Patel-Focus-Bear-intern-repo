@@ -252,3 +252,68 @@ Breaking down functions is beneficial because it makes the code easier to unders
 ### How did refactoring improve the structure of the code?
 
 Refactoring improved the structure by separating the different responsibilities into smaller, clearly named functions. The original version mixed validation, calculation, and formatting in one block, which made it feel crowded and harder to follow. After refactoring, the main function became much cleaner and easier to read because the detailed logic was moved into helper functions. This made the code more organized, more modular, and much easier to update in the future without affecting the whole function.
+
+---
+
+# Avoiding Code Duplication
+
+## Research on the DRY Principle
+
+The DRY principle stands for “Don’t Repeat Yourself.” It means that the same logic should not be written again and again in different places. When code is duplicated, even small updates become risky because every copy needs to be changed correctly. If one version is updated and another is forgotten, bugs and inconsistencies can appear.
+
+Applying the DRY principle helps make code cleaner, easier to maintain, and easier to understand. Instead of repeating the same block of code, it is better to move that logic into a single reusable function.
+
+### Find a section of code in your test repo with unnecessary repetition.
+
+### Before Refactoring
+
+def send_welcome_email(name, email):
+message = f"Hello {name}, welcome to our platform!"
+print("Sending email to:", email)
+print("Message:", message)
+print("Email sent successfully.")
+
+def send_password_reset_email(name, email):
+message = f"Hello {name}, here is your password reset link."
+print("Sending email to:", email)
+print("Message:", message)
+print("Email sent successfully.")
+
+def send_subscription_email(name, email):
+message = f"Hello {name}, your subscription has been activated."
+print("Sending email to:", email)
+print("Message:", message)
+print("Email sent successfully.")
+
+In this example, the email sending logic is repeated in multiple functions. Only the message content changes, while the printing and delivery steps remain the same.
+
+### Refactor the code to eliminate duplication.
+
+def send_email(email, message):
+print("Sending email to:", email)
+print("Message:", message)
+print("Email sent successfully.")
+
+def send_welcome_email(name, email):
+message = f"Hello {name}, welcome to our platform!"
+send_email(email, message)
+
+def send_password_reset_email(name, email):
+message = f"Hello {name}, here is your password reset link."
+send_email(email, message)
+
+def send_subscription_email(name, email):
+message = f"Hello {name}, your subscription has been activated."
+send_email(email, message)
+
+After refactoring, the repeated email sending logic is placed inside one reusable function. This removes duplication and makes the code much easier to update in the future.
+
+## Write reflections in clean_code.md:
+
+### What were the issues with duplicated code?
+
+The main issue with duplicated code was that the same logic appeared in multiple places. This makes maintenance harder because even a small change must be repeated everywhere. It also increases the risk of inconsistency, since one section might get updated while another is forgotten. In larger projects, this can lead to bugs, wasted time, and more confusing code.
+
+### How did refactoring improve maintainability?
+
+Refactoring improved maintainability by moving the repeated logic into a single reusable function. This made the code shorter, cleaner, and easier to understand. It also means that future changes only need to be made in one place instead of several. As a result, the code became more reliable and easier to manage.
