@@ -138,4 +138,20 @@ I learned that developers actively discuss code improvements, suggest fixes, and
 
 ---
 
-## Git helps developers manage shared code and track project changes clearly.
+# Merge Conflicts & Conflict Resolution
+
+## Git helps teams collaborate on shared code, track changes clearly, and work in an organized way.
+
+### Write about your experience in git_understanding.md:
+
+### What caused the conflict?
+
+The conflict happened because I edited the same line in git_understanding.md on two different branches. First, I changed the line in my practice branch. Then I switched back to main and changed that same line differently. When I tried to merge the branch back into main, Git detected that both versions were different and could not merge them automatically.
+
+### How did you resolve it?
+
+I resolved the conflict by opening the file and reviewing both versions of the text. Git showed the conflicting changes with conflict markers, which helped me see exactly where the problem was. I then removed the markers, wrote one final combined sentence that made sense, saved the file, staged it, and created a new commit to complete the merge.
+
+### What did you learn?
+
+This activity helped me understand that merge conflicts are a normal part of working with Git, especially when multiple people edit the same file. I learned how important it is to read the conflict carefully instead of rushing. I also learned that Git does not lose the work it simply asks me to choose the final version. Overall, this made me more confident in handling branch merges and fixing conflicts properly.
