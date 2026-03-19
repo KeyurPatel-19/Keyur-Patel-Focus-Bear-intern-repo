@@ -368,3 +368,56 @@ The original code was complex because it included unnecessary variables and extr
 ### How did refactoring improve it?
 
 Refactoring improved the code by simplifying the logic and removing unnecessary steps. By using built-in functions like sum() and len(), the function became shorter and easier to understand. The final version clearly shows what the function is doing, which makes it easier to maintain and modify in the future.
+
+---
+
+# Commenting & Documentation
+
+## Research best practices for writing comments and documentation.
+
+Best Practices for Writing Comments and Documentation
+-Write comments only when they add useful context.
+-Use comments to explain why something is being done, not just what the code is doing.
+-Keep comments short, clear, and easy to understand.
+-Update comments when code changes, so they do not become misleading.
+-Avoid obvious comments that repeat the code.
+-Prefer clear variable names, function names, and simple logic before adding comments.
+-Use documentation for functions, files, or modules when someone may need help understanding how to use them.
+
+## Find an example of poorly commented code and rewrite the comments to be more useful.
+
+### set x to 5
+
+x = 5
+
+### loop through numbers
+
+for i in range(x): # print i
+print(i)
+
+Why this is poor:
+
+These comments are not very helpful because they only repeat what the code is already saying. Anyone reading the code can already see that x is set to 5 and that the loop prints numbers.
+
+### Improved version
+
+#### Print the first five counting numbers starting from 0.
+
+total_numbers = 5
+
+for number in range(total_numbers):
+print(number)
+Why this is better
+
+This version is better because:
+The variable name total_numbers is clearer than x.
+The loop variable number is clearer than i.
+The comment gives a little useful context instead of repeating each line.
+
+### When should you add comments?
+
+Comments should be added when the code needs extra explanation that is not obvious just by reading it. They are helpful when explaining the purpose of a block of code, a business rule, a workaround, or why a certain decision was made. Good comments give useful context that helps another developer understand the reason behind the code.
+
+### When should you avoid comments and instead improve the code?
+
+Comments should be avoided when they only repeat what the code already says. In those cases, it is usually better to improve the code by using clearer variable names, smaller functions, and simpler logic. Clean and readable code reduces the need for unnecessary comments and makes the program easier to understand.
