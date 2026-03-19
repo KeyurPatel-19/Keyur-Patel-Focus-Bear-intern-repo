@@ -155,3 +155,7 @@ I resolved the conflict by opening the file and reviewing both versions of the t
 ### What did you learn?
 
 This activity helped me understand that merge conflicts are a normal part of working with Git, especially when multiple people edit the same file. I learned how important it is to read the conflict carefully instead of rushing. I also learned that Git does not lose the work it simply asks me to choose the final version. Overall, this made me more confident in handling branch merges and fixing conflicts properly.
+
+### Proof
+
+![Conflict created and resolved](screenshots/Conflict_Created_and_Resolved.png)
