@@ -135,3 +135,9 @@ A good pull request has a clear title, explanation of the changes, and small foc
 ### What did you learn from reviewing an open-source PR?
 
 I learned that developers actively discuss code improvements, suggest fixes, and approve changes before merging. It showed me that collaboration and feedback are essential parts of software development.
+
+---
+
+## Git helps teams collaborate on the same project safely and efficiently.
+
+## Git helps teams work on the same project safely and efficiently.
