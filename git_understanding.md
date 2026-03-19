@@ -138,6 +138,4 @@ I learned that developers actively discuss code improvements, suggest fixes, and
 
 ---
 
-## Git helps teams collaborate on the same project safely and efficiently.
-
 ## Git helps teams work on the same project safely and efficiently.
