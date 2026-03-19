@@ -65,3 +65,9 @@ Task: Onboarding process step 2, Milestone 3 Learn git
 Time: 12: 20 PM to 02: 00 PM
 Location: Swinburne LateLab
 Task: Onboarding process step 2, Milestone 4
+
+### 20 Mar 2026, Fri
+
+Time: 8: 10 AM to : 00 AM
+Location: Swinburne LateLab
+Task: Onboarding process step 2, Milestone 4
