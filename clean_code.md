@@ -421,3 +421,42 @@ Comments should be added when the code needs extra explanation that is not obvio
 ### When should you avoid comments and instead improve the code?
 
 Comments should be avoided when they only repeat what the code already says. In those cases, it is usually better to improve the code by using clearer variable names, smaller functions, and simpler logic. Clean and readable code reduces the need for unnecessary comments and makes the program easier to understand.
+
+---
+
+# Handling Errors & Edge Cases
+
+### Find an existing function that doesn’t properly handle errors or invalid inputs.
+
+def divide_numbers(a, b):
+return a / b
+
+Why this is bad:
+
+This function works only when both inputs are valid and b is not zero.
+It does not handle:
+division by zero
+text input
+missing input
+
+#### Refactored version with better error handling
+
+def divide_numbers(a, b):
+if a is None or b is None:
+return "Error: both values are required."
+
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        return "Error: inputs must be numbers."
+
+    if b == 0:
+        return "Error: cannot divide by zero."
+
+    return a / b
+
+### What was the issue with the original code?
+
+The original function assumed that the input would always be correct, which made it fragile. It did not check whether the values were missing, the correct type, or safe to use in the calculation. Because of that, even a small mistake like dividing by zero or passing text instead of a number could cause the program to fail unexpectedly.
+
+### How does handling errors improve reliability?
+
+Handling errors improves reliability because it helps the program respond safely when something goes wrong. Instead of crashing or producing confusing results, the code can catch the problem early and give a clear message. This makes the software more stable, easier to debug, and more trustworthy for real users.
