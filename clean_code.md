@@ -460,3 +460,32 @@ The original function assumed that the input would always be correct, which made
 ### How does handling errors improve reliability?
 
 Handling errors improves reliability because it helps the program respond safely when something goes wrong. Instead of crashing or producing confusing results, the code can catch the problem early and give a clear message. This makes the software more stable, easier to debug, and more trustworthy for real users.
+
+---
+
+# Writing Unit Tests for Clean Code
+
+### Importance of Unit Testing in Software Development
+
+Unit testing is important because it helps verify that small parts of a program work correctly before the full system is used. It allows developers to catch mistakes early, improve code quality, and reduce the risk of breaking existing functionality when making future changes. Unit testing also increases confidence in the code because it provides quick feedback about whether a function behaves as expected.
+
+For this task, I chose **PyTest** as the testing framework because it is simple, readable, and easy to use with Python in VS Code.
+
+### Write a few unit tests for a function in your test repo.
+
+I created a Python function called `calculate_discount()` that calculates the final price after applying a discount percentage. I then wrote unit tests to check both valid cases and invalid input cases.
+
+### How do unit tests help keep code clean?
+
+Unit tests help keep code clean because they encourage me to write small and focused functions that do one job well. When a function is too big or confusing, it becomes harder to test, so testing naturally pushes the code toward better structure. Unit tests also make the code easier to maintain because I can quickly check whether everything still works after making changes.
+
+### What issues did you find while testing?
+
+While testing, I found that I needed to handle division by zero properly. At first, this was an easy case to overlook, but writing a test made that problem clear. This showed me that testing helps uncover edge cases and improves the reliability of the code.
+
+### Proof
+
+![Insatalling Pytest](screenshots/Installing_Pytest.png)
+![Testing Pytest](screenshots/Testing_Pytest.png)
+![Insatalling Pytest](screenshots/test_discount.png)
+![Insatalling Pytest](screenshots/discount.png)
