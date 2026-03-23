@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint:md": "markdownlint-cli2 \"**/*.md\"",
-    "spellcheck": "cspell \"**/*.md\"",
+    "lint:md": "markdownlint-cli2",
     "check:all": "npm run lint:md && npm run spellcheck",
     "prepare": "husky"
   },

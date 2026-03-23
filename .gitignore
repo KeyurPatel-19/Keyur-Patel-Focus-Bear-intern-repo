@@ -1,2 +1,70 @@
-node_modules/
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
 .DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# ------------------------------
+# Node / React
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------
+# Build files
+# ------------------------------
+dist/
+build/
+
+# ------------------------------
+# Coverage
+# ------------------------------
+coverage/
+
+# ------------------------------
+# Temporary
+# ------------------------------
+*.tmp
+*.swp
+
+# ------------------------------
+# Python packages
+# ------------------------------
+*.egg-info/
+site-packages/
+
+# ------------------------------
+# Husky internal
+# ------------------------------
+.husky/_
+
+# ------------------------------
+# Ignore nested projects
+# ------------------------------
+react-debug-practice/node_modules/
+react-debug-practice/dist/

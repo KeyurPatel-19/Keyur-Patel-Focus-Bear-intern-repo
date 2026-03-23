@@ -1,0 +1,5 @@
+**/node_modules/**
+**/venv/**
+node_modules/**
+venv/**
+react-debug-practice/node_modules/**
