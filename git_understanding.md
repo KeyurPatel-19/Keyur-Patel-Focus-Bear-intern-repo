@@ -76,7 +76,163 @@ In a real project, I would use these commands to safely manage changes, track pr
 
 What surprised me was how powerful Git is for handling specific changes without affecting the whole project. I found cherry-pick especially interesting because it lets me move only one commit instead of merging an entire branch. I also found git blame useful because it gives clear history at the line level, which can be very helpful in team projects.
 
-## Debugging with git bisect
+---
+
+# Understand git bisect
+
+### What is git bisect?
+
+git bisect is a Git tool that helps you find which commit introduced a bug.
+
+Instead of checking every commit one by one, Git uses a binary search approach:
+
+you tell Git one commit is good
+you tell Git one commit is bad
+Git checks a commit in the middle
+you test it and say good or bad
+Git keeps narrowing it down until it finds the exact commit
+
+This is helpful in debugging because it saves time when a project has many commits.
+
+# Git Bisect Practical Demonstration
+
+## Test Repository
+
+For this task, I created a test repository inside my internship project:
+
+git-bisect-demo
+
+This repository contains a simple Python file (`app.py`) used to simulate a bug and test how git bisect works in practice.
+
+## Bug Description
+
+Initially, I created a working function:
+
+```python
+def add_numbers(a, b):
+    return a + b
+
+print(add_numbers(2, 3))
+```
+
+This correctly returned:
+
+5
+
+Later, I introduced a bug by changing the logic to:
+
+```python
+return a - b
+```
+
+This caused incorrect output:
+
+-1
+
+## Commit History
+
+I created multiple commits to simulate a real development workflow:
+
+- Initial working version of app.py
+- Add testing print message
+- Improve output formatting
+- Introduce bug in add_numbers function
+- Add extra log after bug
+
+This allowed git bisect to search through multiple commits.
+
+## Git Bisect Commands Used
+
+Below are the commands I used during the bisect process:
+
+```bash
+cd git-bisect-demo
+git log --oneline
+
+git bisect start
+git bisect bad
+git bisect good 364f9d2
+
+python3 app.py
+git bisect good
+
+python3 app.py
+git bisect bad
+
+git bisect reset
+```
+
+## Terminal Output (Evidence)
+
+Below is a sample of my actual terminal session:
+
+```bash
+$ git log --oneline
+11b8bd9 Add extra log after bug
+4785d90 Introduce bug in add_numbers function
+7257778 Improve output formatting
+500d245 Add testing print message
+364f9d2 Initial working version of app.py
+
+$ git bisect start
+$ git bisect bad
+$ git bisect good 364f9d2
+
+Bisecting: 1 revision left to test after this
+
+$ python3 app.py
+Testing calculator
+Current result:
+5
+
+$ git bisect good
+
+Bisecting: 0 revisions left to test after this
+
+$ python3 app.py
+Testing calculator
+Current result:
+-1
+
+$ git bisect bad
+4785d90 is the first bad commit
+```
+
+## Result
+
+Git bisect successfully identified the following commit as the first bad commit:
+
+4785d90 Introduce bug in add_numbers function
+
+This confirms that this commit introduced the bug in the program.
+
+## Screenshots (Evidence)
+
+![first commit](screenshots/first_commit.png)
+
+![introduce bug](screenshots/introduced_bug.png)
+
+![commit history](screenshots/commit_history.png)
+
+![first bad commit](screenshots/Issue_37_4.png)
+
+![git reset](screenshots/Issue_37_5.png)
+
+## Resetting Bisect
+
+After completing the process, I reset the repository using:
+
+```bash
+git bisect reset
+```
+
+This returned the repository to the latest commits.
+
+## Reflection
+
+This practical task helped me clearly understand how git bisect works. Instead of manually checking every commit, git bisect uses a binary search approach to quickly identify the commit that introduced a bug.
+
+By creating my own test scenario and running the commands step by step, I was able to see how efficient and useful this tool is. It makes debugging much faster, especially in projects with many commits. I now feel confident using git bisect to track down issues in real development scenarios.
 
 ### What does git bisect do?
 
@@ -89,6 +245,8 @@ I would use git bisect when a project suddenly starts failing, but I do not know
 ### How does it compare to manually reviewing commits?
 
 git bisect is much faster and more efficient than manually reviewing commits one by one. Manual checking can take a long time and is easy to get confused with, while git bisect narrows the problem down quickly and gives a more reliable result.
+
+---
 
 # Writing Meaningful Commit Messages
 
