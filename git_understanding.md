@@ -212,7 +212,7 @@ This confirms that this commit introduced the bug in the program.
 
 ![introduce bug](screenshots/introduced_bug.png)
 
-![commit history](screenshots/commit_history.png)
+![commit history](screenshots/Commit_history.png)
 
 ![first bad commit](screenshots/Issue_37_4.png)
 
