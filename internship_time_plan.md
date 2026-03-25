@@ -1,5 +1,12 @@
 # Internship Time Plan
 
+## Proof
+
+The following screenshots show my Focus Bear usage and logged sessions:
+
+![focusbear logs](screenshots/focusbear_logs.png)
+![focus session](screenshots/focus_session.png)
+
 ## Internship Requirement
 
 As part of the Swinburne postgraduate internship program, I am required to complete **180 hours** of internship work. To ensure I meet this requirement, I have created a weekly schedule that outlines when I will work on internship tasks.
@@ -64,7 +71,7 @@ Task: Onboarding process step 2, Milestone 3 Learn git
 
 Time: 12: 20 PM to 02: 20 PM
 Location: Swinburne LateLab
-Task: Onboarding process step 2, Milestone 3 
+Task: Onboarding process step 2, Milestone 3
 
 ### 20 Mar 2026, Fri
 
@@ -83,7 +90,3 @@ Task: Onboarding process step 2, Milestone 4
 Time: 11: 00 AM to 03: 30 PM
 Location: Home
 Task: Onboarding process step 2, Milestone 5
-
-
-
-
