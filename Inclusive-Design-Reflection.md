@@ -36,12 +36,43 @@ One practical change I can make is writing instructions in a simple and clear wa
 
 ### Read a first-person account from someone with ADHD or Autism about their experiences with productivity tools. (Hint: Look for blog posts, videos, or community discussions.)
 
-After reading about the experiences of people with ADHD using productivity tools, I learned that many users feel overwhelmed when an app shows too many tasks at once. Simple layouts and step-by-step task guidance help them stay focused and reduce stress.
+I read a first-person article titled
+“These Four Productivity Hacks Transformed My AuDHD Life” by Christie Sausa (Medium)
+
+Link: https://medium.com/invisible-illness/these-four-simple-productivity-hacks-transformed-my-audhd-life-b6c38ea7f7b3
+
+In this article, the author shares her personal experience of living with ADHD and Autism (AuDHD) and how she struggled with traditional productivity tools. She explains that even though she wanted to stay productive, many systems felt overwhelming, difficult to follow, and mentally exhausting.
+
+One line that stood out to me was:
+
+“It all felt like too much.”
+
+This clearly shows how productivity tools can unintentionally create pressure instead of helping users.
+
+What stood out to me
+
+What stood out to me personally is how hard the author was trying to stay productive, but still felt overwhelmed by the tools that were supposed to help her. It made me realize that the problem is not always the user — sometimes the design of the system does not match how people think or work.
+
+This changed my perspective because I understood that productivity tools should focus more on reducing stress and supporting users, rather than pushing them to do more. For a product like Focus Bear, it is important that users feel guided and supported, not pressured.
 
 ### Identify one design or communication improvement that could make Focus Bear more accessible.
 
-One design improvement that could make Focus Bear more accessible is breaking large tasks into smaller steps. This can help users feel less overwhelmed and make it easier to stay focused.
+Breaking large tasks into smaller, manageable steps.
+
+Many users with ADHD or executive functioning challenges struggle with starting tasks when they feel too big or unclear. By guiding users step-by-step instead of showing everything at once, Focus Bear can reduce overwhelm and make it easier for users to take action.
+
+This approach makes the experience feel more supportive and achievable.
 
 ### Practice writing a clear, patient, and supportive response to a hypothetical user struggling with executive functioning.
 
-Thank you for sharing your experience. It’s completely normal to feel distracted sometimes, especially when working on many tasks. You can try starting with one small task and using a focus session to help stay on track. Taking short breaks between tasks can also help improve focus. If you need any support, we are here to help.
+Thank you for sharing how you’re feeling — it sounds like things have been a bit overwhelming, and that’s completely understandable.
+
+You don’t need to do everything at once. A good starting point could be choosing just one small task, even something simple. Once you begin, it often becomes easier to continue.
+
+You could also try a short focus session and take a break afterward. It’s okay to go at your own pace — progress doesn’t have to be perfect.
+
+You’re doing your best, and that matters. If you need any support, we’re here to help.
+
+## proof
+
+![article](screenshots/issue_9_1.png)
