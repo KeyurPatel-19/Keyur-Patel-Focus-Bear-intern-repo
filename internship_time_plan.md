@@ -90,3 +90,22 @@ Task: Onboarding process step 2, Milestone 4
 Time: 11: 00 AM to 03: 30 PM
 Location: Home
 Task: Onboarding process step 2, Milestone 5
+
+### 23 Mar 2026, Mon
+
+Time: 12: 00 PM to 02: 00 PM
+Location: Swinburne LateLab
+Task: Onboarding process step 2, Milestone 5
+
+### 27 Mar 2026, Fri
+
+Time: 8: 00 AM to 12: 00 AM
+Location: Home
+Task: Onboarding process step 2, Soving issue again which is not approve by the bot.
+
+### 28 Mar 2026, Sat
+
+Time: 9: 00 AM to 01: 00 PM
+Location: Home
+Task: Onboarding process step 2, Soving issue again which is not approve by the bot.
+
